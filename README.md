@@ -20,8 +20,13 @@ Coloque um nome que faça sentido para o seu projeto. Exemplo: meu-projeto-examp
 <ul>Step 5 - Crie o espelho enviando o projeto clonado para o github.</ul>
 git push --mirror https://github.com/nt-noobs/meu-projeto-example.git
 <ul>Step 6 - Limpar a sujeira.</ul>
-cd ..
+cd ..<br/>
 rm -rf default-system.git
+<ul>Step 7 - Clone do Projeto.</ul>
+git clone https://github.com/nt-noobs/meu-projeto-example.git
+<ul>Step 8 - Alteração do POM.xml.</ul>
+Alterar a tag nome e artifactId para o nome do novo projeto.
+<ul>Step 9 - Abrir o projeto na IDE desejada.</ul>
 
 
 <h2>Cada exercício deve ser enviado em um branch separado, como fazer</h2>
