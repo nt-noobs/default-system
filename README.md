@@ -1,6 +1,6 @@
 # Default System
 
-Este projeto serve com prover a estrutura básica de um sistema.
+Este projeto serve para prover a estrutura básica de um sistema Java com Spring Boot.
 
 ### Configuações
 
@@ -8,7 +8,8 @@ Este projeto serve com prover a estrutura básica de um sistema.
 Acesso pelo link: ```http://localhost:8080/h2-console``` <br />
 Obs.: O JDBC URL deve estar igual a "jdbc:h2:mem:testdb".
 
-### Copia deste projeto em um novo repositório
+
+### Como fazer a copia deste projeto em um novo repositório?
 
 #### Step 1 - Abrir o terminal de acesso ao GIT
 
@@ -24,19 +25,20 @@ Coloque um nome que faça sentido para o seu projeto. Exemplo: meu-projeto-examp
 #### Step 5 - Crie o espelho enviando o projeto clonado para o github
 ```git push --mirror https://github.com/nt-noobs/meu-projeto-example.git```
 
-#### Step 6 - Limpar a sujeira.
+#### Step 6 - Limpar a sujeira
 ```cd ..```
 ```rm -rf default-system.git```
 
-#### Step 7 - Clone do Projeto.
+#### Step 7 - Clone do Projeto
 ```git clone https://github.com/nt-noobs/meu-projeto-example.git```
 
-#### Step 8 - Alteração do POM.xml.
-Alterar a tag nome e artifactId para o nome do novo projeto.
+#### Step 8 - Alteração do POM.xml
+Alterar a tag "nome" e "artifactId" para o nome do novo projeto.
+Também alterar qualquer referência ao nome default-system ou defaultsystem, pelo novo nome do projeto.
 
 #### Step 9 - Abrir o projeto na IDE desejada.
 
-
+<br />
 ### Cada exercício deve ser enviado em um branch separado, como fazer?
 
 #### Step 1 - Criar um branch a partir da master (o nome tem que fazer sentido)
