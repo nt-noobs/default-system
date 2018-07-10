@@ -39,6 +39,7 @@ Também alterar qualquer referência ao nome default-system ou defaultsystem, pe
 #### Step 9 - Abrir o projeto na IDE desejada.
 
 <br />
+
 ### Cada exercício deve ser enviado em um branch separado, como fazer?
 
 #### Step 1 - Criar um branch a partir da master (o nome tem que fazer sentido)
